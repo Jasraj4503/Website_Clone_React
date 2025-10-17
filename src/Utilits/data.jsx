@@ -19,6 +19,9 @@ import learning1 from "../assets/images/learning1.png"
 import learning2 from "../assets/images/learning2.png"
 import learning3 from "../assets/images/learning3.png"
 import learning4 from "../assets/images/learning4.png"
+import review1 from "../assets/images/review1.jpg"
+import review2 from "../assets/images/review2.jpg"
+import review3 from "../assets/images/review3.jpg"
 
 export const studyBannerData = [
   {
@@ -279,5 +282,26 @@ export const numbersData = [
     id: 4,
     number: "100%",
     desc: "Success Students"
+  }
+]
+
+export const reviewData = [
+  {
+    id: 1,
+    img: review1,
+    name: "Meet Rakholiya",
+    msg: "The unique and internationally recognized course structure that helps students to keep updated with the latest trend and market requirements helps students be prepared for local and international job markets. This is the main reason I choose the institute's red and white group."
+  },
+  {
+    id: 2,
+    img: review2,
+    name: "Krunal Trada",
+    msg: "As the tagline of the red and white institute suggests, one step in changing education chain, they work hard to do so. Either by providing practical knowledge or full back support while getting a job. Due to these reasons, I joined a red and white institute group."
+  },
+  {
+    id: 3,
+    img: review3,
+    name: "Prit Dobariya",
+    msg: "I feel glad that I have chosen to be part of red and white international because, along with knowledge of the extracurricular activities such as personality development, sports week, and technical events such as code light, these all have helped me to grow my self on a different level."
   }
 ]

@@ -1,11 +1,24 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
-.TopicData{
-   background-color: #173156;
+
+.TopicData {
+    background-color: #173156;
+}
+
+.col-lg-2-4 {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.review {
+    border-top: 3px solid gray;
+    border-bottom: 3px solid #FD9F1A;
 }

@@ -41,8 +41,8 @@ export const TopCoursesUi = ({ item }) => {
 export const PopularTopicUi = ({ item }) => {
     return (
         <>
-            <div className="card text-center border-0 shadow-sm" style={{ backgroundColor: "#f8f9fa" }}>
-                <div className="card-body py-4">{item?.title}</div>
+            <div className="text-center border-0 shadow-sm" style={{ backgroundColor: "#f8f9fa" }}>
+                <div className="card-body">{item?.title}</div>
             </div>
         </>
     )
@@ -95,6 +95,20 @@ export const NumbersUi = ({ item }) => {
                         </div>
                     </div>
                 </span>
+            </div>
+        </>
+    )
+}
+
+export const ReviewUi = ({ item }) => {
+    return (
+        <>
+            <div className="card h-100 text-center border-0" style={{ backgroundColor: "#ffffff" }}>
+                <div className="review card-body" style={{ padding: "60px 30px", outline: "2px sloid gray" }}>
+                    <img src={item.img} className="rounded-circle mb-3" style={{ width: "80px", height: "80px", objectFit: "cover" }} alt={item.name}/>
+                    <h5 className="card-title m-4">{item.name}</h5>
+                    <p className="card-text fw-normal">{item.msg}</p>
+                </div>
             </div>
         </>
     )

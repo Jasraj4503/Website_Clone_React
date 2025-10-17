@@ -5,6 +5,7 @@ import Navbar from "../Layout/Navbar";
 import Numbers from "../Layout/Numbers";
 import PickCourse from "../Layout/PickCourse";
 import Populartopic from "../Layout/Populartopic";
+import Review from "../Layout/Review";
 import TopCourse from "../Layout/Top_Courses";
 import Why_Study from "../Layout/Why-Study";
 
@@ -20,6 +21,7 @@ function Home() {
             <LearningJourney/>
             <PickCourse/>
             <Numbers/>
+            <Review/>
             <Footer/>
         </>
     )
